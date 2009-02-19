@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{fe8da7e6-db09-46f2-9d15-a1771540b1b3}</ProjectGuid>
+    <MainSource>DataExplorerX.dpk</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>C:\th\Docs\RAD Studio\5.0\Bpl\DataExplorerX.bpl</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Optimize>False</DCC_Optimize>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>Package</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters>  <Parameters Name="RunParams">-pDelphi</Parameters>
+      <Parameters Name="HostApplication">C:\Arquivos de programas\CodeGear\RAD Studio\5.0\bin\bds.exe</Parameters>
+    </Parameters><Package_Options><Package_Options Name="ImplicitBuild">True</Package_Options><Package_Options Name="DesigntimeOnly">False</Package_Options><Package_Options Name="RuntimeOnly">False</Package_Options></Package_Options><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1046</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Excluded_Packages>
+      
+      
+      <Excluded_Packages Name="C:\th\Docs\RAD Studio\5.0\Bpl\DclIODBX_D11.bpl">InstantObjects dbExpress Design-Time Support (Delphi 2007)</Excluded_Packages>
+      <Excluded_Packages Name="C:\th\Docs\RAD Studio\5.0\Bpl\DclIOCore_D11.bpl">InstantObjects Design-Time Package (Delphi 2007)</Excluded_Packages>
+    </Excluded_Packages><Source><Source Name="MainSource">DataExplorerX.dpk</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="DataExplorerX.dpk">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\dbexpress.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\dbrtl.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\dbxcds.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\DbxClientDriver.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\DbxCommonDriver.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\DbxDynalinkDriver.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\DbxReadOnlyMetaData.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\designide.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\dsnap.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\rtl.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\vcl.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\vclactnband.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\vcldb.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\vclx.dcp" />
+    <DCCReference Include="C:\Documents and Settings\desenvolvedor\xmlrtl.dcp" />
+    <DCCReference Include="DataExplorer.pas" />
+    <DCCReference Include="DataExplorerTree.pas">
+      <Form>DETree</Form>
+    </DCCReference>
+    <DCCReference Include="dbdsnap.dcp" />
+    <DCCReference Include="dbxdsnap.dcp" />
+    <DCCReference Include="dbxodsnap.dcp" />
+    <DCCReference Include="DBXOracleReadOnlyMetaData.dcp" />
+    <DCCReference Include="DBXOracleReadOnlyMetaDatadsnap.dcp" />
+    <DCCReference Include="ddsnap.dcp" />
+    <DCCReference Include="ExecuteQueryForm.pas" />
+    <DCCReference Include="MetaDataWrapers.pas" />
+    <DCCReference Include="NodeTypes.pas" />
+    <DCCReference Include="Registrar.pas" />
+  </ItemGroup>
+</Project>
