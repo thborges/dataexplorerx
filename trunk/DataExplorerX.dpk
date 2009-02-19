@@ -1,0 +1,52 @@
+package DataExplorerX;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  designide,
+  dbrtl,
+  dbexpress,
+  vcl,
+  DbxClientDriver,
+  DbxReadOnlyMetaData,
+  vcldb,
+  DbxCommonDriver,
+  DbxDynalinkDriver,
+  dsnap,
+  dbxcds,
+  vclactnband,
+  vclx,
+  xmlrtl;
+
+contains
+  Registrar in 'Registrar.pas',
+  DataExplorer in 'DataExplorer.pas',
+  DataExplorerTree in 'DataExplorerTree.pas' {DETree},
+  NodeTypes in 'NodeTypes.pas',
+  MetaDataWrapers in 'MetaDataWrapers.pas',
+  ExecuteQueryForm in 'ExecuteQueryForm.pas';
+
+end.

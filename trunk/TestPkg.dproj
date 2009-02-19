@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{6217b120-cb69-41c9-9c9d-99ee1fb10247}</ProjectGuid>
+    <MainSource>TestPkg.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>TestPkg.exe</DCC_DependencyCheckOutputName>
+    <DCC_EnabledPackages>true</DCC_EnabledPackages>
+    <DCC_UsePackage>vcl;rtl;vclx;vclactnband;dbrtl;vcldb;vcldbx;bdertl;dsnap;dsnapcon;teeUI;teedb;tee;adortl;dbxcds;dbexpress;DbxCommonDriver;Designide</DCC_UsePackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Define>DEBUG;TESTTOOL</DCC_Define>
+    <DCC_UnitSearchPath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10;C:\Arquivos de programas\CodeGear\RAD Studio\5.0\source\database\src</DCC_UnitSearchPath>
+    <DCC_ResourcePath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10;C:\Arquivos de programas\CodeGear\RAD Studio\5.0\source\database\src</DCC_ResourcePath>
+    <DCC_ObjPath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10;C:\Arquivos de programas\CodeGear\RAD Studio\5.0\source\database\src</DCC_ObjPath>
+    <DCC_IncludePath>$(BDS)\lib\Debug;$(BDS)\Lib\Debug\Indy10;C:\Arquivos de programas\CodeGear\RAD Studio\5.0\source\database\src</DCC_IncludePath>
+    <DCC_Optimize>False</DCC_Optimize>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters>  <Parameters Name="DebugSourceDirs">C:\Arquivos de programas\CodeGear\RAD Studio\5.0\source\database\src\</Parameters>
+    </Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1046</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Excluded_Packages>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <Excluded_Packages Name="C:\th\Docs\RAD Studio\5.0\Bpl\Dbx4SQLite3Pkg.bpl">DBX4 SQlite3 Driver</Excluded_Packages>
+      <Excluded_Packages Name="C:\th\Docs\RAD Studio\5.0\Bpl\DclIODBX_D11.bpl">InstantObjects dbExpress Design-Time Support (Delphi 2007)</Excluded_Packages>
+      <Excluded_Packages Name="C:\th\Docs\RAD Studio\5.0\Bpl\DclIOCore_D11.bpl">InstantObjects Design-Time Package (Delphi 2007)</Excluded_Packages>
+    </Excluded_Packages><Source><Source Name="MainSource">TestPkg.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="TestPkg.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="DataExplorerTree.pas">
+      <Form>DETree</Form>
+    </DCCReference>
+    <DCCReference Include="ExecuteQueryForm.pas">
+      <Form>ExecuteQuery</Form>
+    </DCCReference>
+    <DCCReference Include="MetaDataWrapers.pas" />
+    <DCCReference Include="NodeTypes.pas" />
+  </ItemGroup>
+</Project>
