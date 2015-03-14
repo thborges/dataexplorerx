@@ -1,0 +1,1 @@
+Um substituto com mais recursos para o Data Explorer do CodeGear Delphi/BDS
